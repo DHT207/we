@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 115%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e3f2fd;
+    padding: 15px;
+}
+
+/* Yêu cầu 4: Thay đổi phần tử nav để sử dụng inline-block và chiều rộng khoảng 80% */
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #bbdefb;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* Yêu cầu 5: Bộ chọn con cháu chỉ định kiểu cho hình ảnh trong nav có chiều rộng khoảng 10% */
+nav img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+main {
+    background-color: #fafafa;
+    font-size: 100%;
+    padding: 20px;
+}
+
+footer {
+    background-color: #e3f2fd;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Yêu cầu 3: Vô hiệu hóa phần định kiểu hiện có cho phần tử li bằng dấu chú thích */
+/*
+li {
+    display: inline-block;
+    width: 150px;
+}
+*/
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #0d47a1;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Yêu cầu 6 & 8: Định kiểu cho lớp .grid sử dụng lưới 2 cột (mỗi cột 40%), căn chỉnh justify-content, align-items và row-gap */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Yêu cầu 7: Bộ chọn con cháu chỉ định kiểu cho các hình ảnh trong lớp .grid có chiều rộng 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Yêu cầu 9: Tùy chỉnh kiểu dáng của lớp .flex sử dụng flex, flex-wrap và justify-content */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
